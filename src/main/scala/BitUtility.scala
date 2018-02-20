@@ -15,4 +15,8 @@ object BitUtility
         }
         println
     }
+
+    def intAsUnsigned(value: Int) : Long = {
+        value & 0xFFFFFFFFl
+    }
 }
